@@ -4,14 +4,14 @@ public class Engine {
 	
 	private String name;
 	private int horsePower;
-	private int mph;
+	private int mpg;
 	private int rpm;
 	private boolean powerStatus;
 	
-	public Engine(String newName, int newHosrsePower, int newMPH, int newRPM ){
+	public Engine(String newName, int newHosrsePower, int newMPG, int newRPM ){
 		this.name = newName;
 		this.horsePower = newHosrsePower;
-		this.mph = newMPH;
+		this.mpg = newMPG;
 		this.rpm = newRPM;
 	}
 
@@ -24,7 +24,7 @@ public class Engine {
 	}
 
 	public int getMph() {
-		return mph;
+		return mpg;
 	}
 
 	public int getRpm() {
